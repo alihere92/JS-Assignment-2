@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     
@@ -7,4 +7,44 @@
 <body>
     <script src="./Question2.js"></script>
 </body>
+</html> -->
+
+<!DOCTYPE html>  
+<html>
+  <head>
+    <title>Add Paragraph Example</title>
+  </head>
+  <body>
+    <button onclick="addParagraph()">Add Paragraph</button>
+    <script>
+      function addParagraph() {
+        const p = document.createElement("p");
+        p.textContent = "Hello, world!";
+        document.body.appendChild(p);
+      }
+    </script>
+  </body>
 </html>
+
+ <!-- This code  for Question 4  -->
+ <!DOCTYPE html>
+<!-- <html>
+  <head>
+    <title>Add List Item Example</title>
+  </head>
+  <body>
+    <ul id="myList">
+      <li>Existing item 1</li>
+      <li>Existing item 2</li>
+    </ul>
+    <button onclick="addListItem()">Add List Item</button>
+    <script>
+      function addListItem() {
+        const li = document.createElement("li");
+        li.textContent = "New item";
+        const ul = document.getElementById("myList");
+        ul.appendChild(li);
+      }
+    </script>
+  </body>
+</html> -->
