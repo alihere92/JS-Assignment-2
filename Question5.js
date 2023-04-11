@@ -1,5 +1,5 @@
 function changeBackgroundColor() {
     const myDiv = document.getElementById("myDiv");
-    myDiv.style.backgroundColor = "blue";
+    myDiv.style.backgroundColor = "red";
   }
     
